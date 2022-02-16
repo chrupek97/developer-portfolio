@@ -1,0 +1,7 @@
+@mixin description-box($clr, $font-size, $line-height) {
+  margin-top: 1rem;
+  font-size: $font-size;
+  color: $clr;
+  line-height: $line-height;
+  font-family: "Inter", sans-serif;
+}
