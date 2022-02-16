@@ -17,10 +17,44 @@
   }
 }
 
+.links {
+  display: none;
+
+  @media (min-width: 52.5em) {
+    display: flex;
+  }
+}
+
+.toggle-menu {
+  display: block;
+
+  @media (min-width: 52.5em) {
+    display: none;
+  }
+}
+
+.get-in-touch-btn {
+  display: none;
+
+  @media (min-width: 52.5em) {
+    display: flex;
+  }
+}
+
+.link {
+  padding: 0 1.5rem;
+  color: $gray-color;
+  text-decoration: none;
+}
+
 .product {
   &__box {
     display: flex;
     flex-direction: column;
+
+    @media (min-width: 52.5em) {
+      max-width: 40%;
+    }
 
     > * {
       margin-top: 2rem;

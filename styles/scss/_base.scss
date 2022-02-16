@@ -24,10 +24,15 @@ footer {
   font-weight: 300;
   padding: 3rem 1.5rem;
 
+  @media (min-width: 52.5em) {
+    padding: 2.5rem 10rem;
+  }
+
   ul {
     display: flex;
     list-style: none;
     justify-content: space-between;
+    align-items: center;
   }
 }
 
@@ -37,4 +42,9 @@ footer {
   ul {
     justify-content: space-around;
   }
+}
+
+.layout {
+  max-width: 200rem;
+  margin: 0 auto;
 }
